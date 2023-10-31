@@ -2,4 +2,9 @@
 // "Something went wrong, please try again" in the paragraph
 // that has the id="error".
 
+error = document.getElementById('error')
 
+function btn(){
+    console.log("clicked")
+    error.innerText="Something went wrong, please try again"
+}
